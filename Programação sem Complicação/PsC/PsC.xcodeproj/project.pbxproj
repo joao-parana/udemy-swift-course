@@ -14,6 +14,16 @@
 		0920395519DCC9DB005852F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0920395419DCC9DB005852F5 /* Images.xcassets */; };
 		0920395819DCC9DB005852F5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0920395619DCC9DB005852F5 /* LaunchScreen.xib */; };
 		0920396419DCC9DB005852F5 /* PsCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0920396319DCC9DB005852F5 /* PsCTests.swift */; };
+		09BE915119DE115600F435DE /* json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BE915019DE115600F435DE /* json.swift */; };
+		09BE915C19DE1BA600F435DE /* MyCTFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 09BE915B19DE1BA600F435DE /* MyCTFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09BE916819DE1BA600F435DE /* MyCTFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BE916719DE1BA600F435DE /* MyCTFrameworkTests.swift */; };
+		09BE916B19DE1BA600F435DE /* MyCTFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09BE915719DE1BA600F435DE /* MyCTFramework.framework */; };
+		09BE916C19DE1BA600F435DE /* MyCTFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09BE915719DE1BA600F435DE /* MyCTFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		09BE918219DEB4EB00F435DE /* JsonModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 09BE918119DEB4EB00F435DE /* JsonModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09BE918E19DEB4EB00F435DE /* JsonModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BE918D19DEB4EB00F435DE /* JsonModuleTests.swift */; };
+		09BE919119DEB4EB00F435DE /* JsonModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09BE917D19DEB4EB00F435DE /* JsonModule.framework */; };
+		09BE919219DEB4EB00F435DE /* JsonModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09BE917D19DEB4EB00F435DE /* JsonModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		09BE919C19DEB62400F435DE /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BE919B19DEB62400F435DE /* JSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +34,64 @@
 			remoteGlobalIDString = 0920394419DCC9DB005852F5;
 			remoteInfo = PsC;
 		};
+		09BE916219DE1BA600F435DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0920393D19DCC9DB005852F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0920394419DCC9DB005852F5;
+			remoteInfo = PsC;
+		};
+		09BE916919DE1BA600F435DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0920393D19DCC9DB005852F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09BE915619DE1BA600F435DE;
+			remoteInfo = MyCTFramework;
+		};
+		09BE916D19DE1BA600F435DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0920393D19DCC9DB005852F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09BE915619DE1BA600F435DE;
+			remoteInfo = MyCTFramework;
+		};
+		09BE918819DEB4EB00F435DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0920393D19DCC9DB005852F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0920394419DCC9DB005852F5;
+			remoteInfo = PsC;
+		};
+		09BE918F19DEB4EB00F435DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0920393D19DCC9DB005852F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09BE917C19DEB4EB00F435DE;
+			remoteInfo = JsonModule;
+		};
+		09BE919319DEB4EB00F435DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0920393D19DCC9DB005852F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09BE917C19DEB4EB00F435DE;
+			remoteInfo = JsonModule;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		09BE917219DE1BA600F435DE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				09BE919219DEB4EB00F435DE /* JsonModule.framework in Embed Frameworks */,
+				09BE916C19DE1BA600F435DE /* MyCTFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0920394519DCC9DB005852F5 /* PsC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PsC.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,7 +109,22 @@
 		0920397119DCD16C005852F5 /* Lição 02.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lição 02.playground"; sourceTree = "<group>"; };
 		0920397219DCD16C005852F5 /* Lição 03.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lição 03.playground"; sourceTree = "<group>"; };
 		0920397319DCD16C005852F5 /* Lição 04.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lição 04.playground"; sourceTree = "<group>"; };
-		0920397419DCD16C005852F5 /* Lição 05.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lição 05.playground"; sourceTree = "<group>"; };
+		0920397419DCD16C005852F5 /* Lição 05.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "Lição 05.playground"; path = "playgrounds/Lição 05.playground"; sourceTree = SOURCE_ROOT; };
+		09BE915019DE115600F435DE /* json.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = json.swift; sourceTree = "<group>"; };
+		09BE915719DE1BA600F435DE /* MyCTFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyCTFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09BE915A19DE1BA600F435DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09BE915B19DE1BA600F435DE /* MyCTFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCTFramework.h; sourceTree = "<group>"; };
+		09BE916119DE1BA600F435DE /* MyCTFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCTFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09BE916619DE1BA600F435DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09BE916719DE1BA600F435DE /* MyCTFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCTFrameworkTests.swift; sourceTree = "<group>"; };
+		09BE917D19DEB4EB00F435DE /* JsonModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JsonModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09BE918019DEB4EB00F435DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09BE918119DEB4EB00F435DE /* JsonModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonModule.h; sourceTree = "<group>"; };
+		09BE918719DEB4EB00F435DE /* JsonModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09BE918C19DEB4EB00F435DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09BE918D19DEB4EB00F435DE /* JsonModuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonModuleTests.swift; sourceTree = "<group>"; };
+		09BE919B19DEB62400F435DE /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		09E6BC7B19DE0A9C0090B485 /* MyPlaygroundTest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlaygroundTest.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,10 +132,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09BE919119DEB4EB00F435DE /* JsonModule.framework in Frameworks */,
+				09BE916B19DE1BA600F435DE /* MyCTFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0920395A19DCC9DB005852F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09BE915319DE1BA600F435DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09BE915E19DE1BA600F435DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09BE917919DEB4EB00F435DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09BE918419DEB4EB00F435DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -66,9 +178,14 @@
 		0920393C19DCC9DB005852F5 = {
 			isa = PBXGroup;
 			children = (
+				09BE914F19DE115600F435DE /* lib */,
 				0920396F19DCD16C005852F5 /* playgrounds */,
 				0920394719DCC9DB005852F5 /* PsC */,
 				0920396019DCC9DB005852F5 /* PsCTests */,
+				09BE915819DE1BA600F435DE /* MyCTFramework */,
+				09BE916419DE1BA600F435DE /* MyCTFrameworkTests */,
+				09BE917E19DEB4EB00F435DE /* JsonModule */,
+				09BE918A19DEB4EB00F435DE /* JsonModuleTests */,
 				0920394619DCC9DB005852F5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,6 +195,10 @@
 			children = (
 				0920394519DCC9DB005852F5 /* PsC.app */,
 				0920395D19DCC9DB005852F5 /* PsCTests.xctest */,
+				09BE915719DE1BA600F435DE /* MyCTFramework.framework */,
+				09BE916119DE1BA600F435DE /* MyCTFrameworkTests.xctest */,
+				09BE917D19DEB4EB00F435DE /* JsonModule.framework */,
+				09BE918719DEB4EB00F435DE /* JsonModuleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,6 +245,7 @@
 		0920396F19DCD16C005852F5 /* playgrounds */ = {
 			isa = PBXGroup;
 			children = (
+				09E6BC7B19DE0A9C0090B485 /* MyPlaygroundTest.playground */,
 				0920397019DCD16C005852F5 /* Lição 01.playground */,
 				0920397119DCD16C005852F5 /* Lição 02.playground */,
 				0920397219DCD16C005852F5 /* Lição 03.playground */,
@@ -133,7 +255,103 @@
 			path = playgrounds;
 			sourceTree = "<group>";
 		};
+		09BE914F19DE115600F435DE /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				09BE915019DE115600F435DE /* json.swift */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		09BE915819DE1BA600F435DE /* MyCTFramework */ = {
+			isa = PBXGroup;
+			children = (
+				09BE915B19DE1BA600F435DE /* MyCTFramework.h */,
+				09BE915919DE1BA600F435DE /* Supporting Files */,
+			);
+			path = MyCTFramework;
+			sourceTree = "<group>";
+		};
+		09BE915919DE1BA600F435DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09BE915A19DE1BA600F435DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09BE916419DE1BA600F435DE /* MyCTFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				09BE916719DE1BA600F435DE /* MyCTFrameworkTests.swift */,
+				09BE916519DE1BA600F435DE /* Supporting Files */,
+			);
+			path = MyCTFrameworkTests;
+			sourceTree = "<group>";
+		};
+		09BE916519DE1BA600F435DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09BE916619DE1BA600F435DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09BE917E19DEB4EB00F435DE /* JsonModule */ = {
+			isa = PBXGroup;
+			children = (
+				09BE918119DEB4EB00F435DE /* JsonModule.h */,
+				09BE917F19DEB4EB00F435DE /* Supporting Files */,
+				09BE919B19DEB62400F435DE /* JSON.swift */,
+			);
+			path = JsonModule;
+			sourceTree = "<group>";
+		};
+		09BE917F19DEB4EB00F435DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09BE918019DEB4EB00F435DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09BE918A19DEB4EB00F435DE /* JsonModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				09BE918D19DEB4EB00F435DE /* JsonModuleTests.swift */,
+				09BE918B19DEB4EB00F435DE /* Supporting Files */,
+			);
+			path = JsonModuleTests;
+			sourceTree = "<group>";
+		};
+		09BE918B19DEB4EB00F435DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09BE918C19DEB4EB00F435DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09BE915419DE1BA600F435DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BE915C19DE1BA600F435DE /* MyCTFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09BE917A19DEB4EB00F435DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BE918219DEB4EB00F435DE /* JsonModule.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		0920394419DCC9DB005852F5 /* PsC */ = {
@@ -143,10 +361,15 @@
 				0920394119DCC9DB005852F5 /* Sources */,
 				0920394219DCC9DB005852F5 /* Frameworks */,
 				0920394319DCC9DB005852F5 /* Resources */,
+				09BE917219DE1BA600F435DE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				09BE916A19DE1BA600F435DE /* PBXTargetDependency */,
+				09BE916E19DE1BA600F435DE /* PBXTargetDependency */,
+				09BE919019DEB4EB00F435DE /* PBXTargetDependency */,
+				09BE919419DEB4EB00F435DE /* PBXTargetDependency */,
 			);
 			name = PsC;
 			productName = PsC;
@@ -171,6 +394,78 @@
 			productReference = 0920395D19DCC9DB005852F5 /* PsCTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		09BE915619DE1BA600F435DE /* MyCTFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09BE916F19DE1BA600F435DE /* Build configuration list for PBXNativeTarget "MyCTFramework" */;
+			buildPhases = (
+				09BE915219DE1BA600F435DE /* Sources */,
+				09BE915319DE1BA600F435DE /* Frameworks */,
+				09BE915419DE1BA600F435DE /* Headers */,
+				09BE915519DE1BA600F435DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCTFramework;
+			productName = MyCTFramework;
+			productReference = 09BE915719DE1BA600F435DE /* MyCTFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		09BE916019DE1BA600F435DE /* MyCTFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09BE917319DE1BA600F435DE /* Build configuration list for PBXNativeTarget "MyCTFrameworkTests" */;
+			buildPhases = (
+				09BE915D19DE1BA600F435DE /* Sources */,
+				09BE915E19DE1BA600F435DE /* Frameworks */,
+				09BE915F19DE1BA600F435DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09BE916319DE1BA600F435DE /* PBXTargetDependency */,
+			);
+			name = MyCTFrameworkTests;
+			productName = MyCTFrameworkTests;
+			productReference = 09BE916119DE1BA600F435DE /* MyCTFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09BE917C19DEB4EB00F435DE /* JsonModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09BE919519DEB4EB00F435DE /* Build configuration list for PBXNativeTarget "JsonModule" */;
+			buildPhases = (
+				09BE917819DEB4EB00F435DE /* Sources */,
+				09BE917919DEB4EB00F435DE /* Frameworks */,
+				09BE917A19DEB4EB00F435DE /* Headers */,
+				09BE917B19DEB4EB00F435DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JsonModule;
+			productName = JsonModule;
+			productReference = 09BE917D19DEB4EB00F435DE /* JsonModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		09BE918619DEB4EB00F435DE /* JsonModuleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09BE919819DEB4EB00F435DE /* Build configuration list for PBXNativeTarget "JsonModuleTests" */;
+			buildPhases = (
+				09BE918319DEB4EB00F435DE /* Sources */,
+				09BE918419DEB4EB00F435DE /* Frameworks */,
+				09BE918519DEB4EB00F435DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09BE918919DEB4EB00F435DE /* PBXTargetDependency */,
+			);
+			name = JsonModuleTests;
+			productName = JsonModuleTests;
+			productReference = 09BE918719DEB4EB00F435DE /* JsonModuleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +479,20 @@
 						CreatedOnToolsVersion = 6.0.1;
 					};
 					0920395C19DCC9DB005852F5 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 0920394419DCC9DB005852F5;
+					};
+					09BE915619DE1BA600F435DE = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					09BE916019DE1BA600F435DE = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 0920394419DCC9DB005852F5;
+					};
+					09BE917C19DEB4EB00F435DE = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					09BE918619DEB4EB00F435DE = {
 						CreatedOnToolsVersion = 6.0.1;
 						TestTargetID = 0920394419DCC9DB005852F5;
 					};
@@ -204,6 +513,10 @@
 			targets = (
 				0920394419DCC9DB005852F5 /* PsC */,
 				0920395C19DCC9DB005852F5 /* PsCTests */,
+				09BE915619DE1BA600F435DE /* MyCTFramework */,
+				09BE916019DE1BA600F435DE /* MyCTFrameworkTests */,
+				09BE917C19DEB4EB00F435DE /* JsonModule */,
+				09BE918619DEB4EB00F435DE /* JsonModuleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -226,6 +539,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		09BE915519DE1BA600F435DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09BE915F19DE1BA600F435DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09BE917B19DEB4EB00F435DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09BE918519DEB4EB00F435DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -236,6 +577,7 @@
 				0920395019DCC9DB005852F5 /* ViewController.swift in Sources */,
 				0920394E19DCC9DB005852F5 /* PsC.xcdatamodeld in Sources */,
 				0920394B19DCC9DB005852F5 /* AppDelegate.swift in Sources */,
+				09BE915119DE115600F435DE /* json.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +589,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		09BE915219DE1BA600F435DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09BE915D19DE1BA600F435DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BE916819DE1BA600F435DE /* MyCTFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09BE917819DEB4EB00F435DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BE919C19DEB62400F435DE /* JSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09BE918319DEB4EB00F435DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BE918E19DEB4EB00F435DE /* JsonModuleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -254,6 +627,36 @@
 			isa = PBXTargetDependency;
 			target = 0920394419DCC9DB005852F5 /* PsC */;
 			targetProxy = 0920395E19DCC9DB005852F5 /* PBXContainerItemProxy */;
+		};
+		09BE916319DE1BA600F435DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0920394419DCC9DB005852F5 /* PsC */;
+			targetProxy = 09BE916219DE1BA600F435DE /* PBXContainerItemProxy */;
+		};
+		09BE916A19DE1BA600F435DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09BE915619DE1BA600F435DE /* MyCTFramework */;
+			targetProxy = 09BE916919DE1BA600F435DE /* PBXContainerItemProxy */;
+		};
+		09BE916E19DE1BA600F435DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09BE915619DE1BA600F435DE /* MyCTFramework */;
+			targetProxy = 09BE916D19DE1BA600F435DE /* PBXContainerItemProxy */;
+		};
+		09BE918919DEB4EB00F435DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0920394419DCC9DB005852F5 /* PsC */;
+			targetProxy = 09BE918819DEB4EB00F435DE /* PBXContainerItemProxy */;
+		};
+		09BE919019DEB4EB00F435DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09BE917C19DEB4EB00F435DE /* JsonModule */;
+			targetProxy = 09BE918F19DEB4EB00F435DE /* PBXContainerItemProxy */;
+		};
+		09BE919419DEB4EB00F435DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09BE917C19DEB4EB00F435DE /* JsonModule */;
+			targetProxy = 09BE919319DEB4EB00F435DE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -410,6 +813,156 @@
 			};
 			name = Release;
 		};
+		09BE917019DE1BA600F435DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyCTFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		09BE917119DE1BA600F435DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MyCTFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		09BE917419DE1BA600F435DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyCTFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PsC.app/PsC";
+			};
+			name = Debug;
+		};
+		09BE917519DE1BA600F435DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyCTFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PsC.app/PsC";
+			};
+			name = Release;
+		};
+		09BE919619DEB4EB00F435DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JsonModule/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		09BE919719DEB4EB00F435DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JsonModule/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		09BE919919DEB4EB00F435DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JsonModuleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PsC.app/PsC";
+			};
+			name = Debug;
+		};
+		09BE919A19DEB4EB00F435DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JsonModuleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PsC.app/PsC";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -439,6 +992,38 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		09BE916F19DE1BA600F435DE /* Build configuration list for PBXNativeTarget "MyCTFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09BE917019DE1BA600F435DE /* Debug */,
+				09BE917119DE1BA600F435DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09BE917319DE1BA600F435DE /* Build configuration list for PBXNativeTarget "MyCTFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09BE917419DE1BA600F435DE /* Debug */,
+				09BE917519DE1BA600F435DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09BE919519DEB4EB00F435DE /* Build configuration list for PBXNativeTarget "JsonModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09BE919619DEB4EB00F435DE /* Debug */,
+				09BE919719DEB4EB00F435DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09BE919819DEB4EB00F435DE /* Build configuration list for PBXNativeTarget "JsonModuleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09BE919919DEB4EB00F435DE /* Debug */,
+				09BE919A19DEB4EB00F435DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 

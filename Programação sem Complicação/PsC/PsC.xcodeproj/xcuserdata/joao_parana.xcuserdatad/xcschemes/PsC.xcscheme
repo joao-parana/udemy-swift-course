@@ -34,6 +34,34 @@
                ReferencedContainer = "container:PsC.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "09BE916019DE1BA600F435DE"
+               BuildableName = "MyCTFrameworkTests.xctest"
+               BlueprintName = "MyCTFrameworkTests"
+               ReferencedContainer = "container:PsC.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "09BE918619DEB4EB00F435DE"
+               BuildableName = "JsonModuleTests.xctest"
+               BlueprintName = "JsonModuleTests"
+               ReferencedContainer = "container:PsC.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -49,6 +77,26 @@
                BlueprintIdentifier = "0920395C19DCC9DB005852F5"
                BuildableName = "PsCTests.xctest"
                BlueprintName = "PsCTests"
+               ReferencedContainer = "container:PsC.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "09BE916019DE1BA600F435DE"
+               BuildableName = "MyCTFrameworkTests.xctest"
+               BlueprintName = "MyCTFrameworkTests"
+               ReferencedContainer = "container:PsC.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "09BE918619DEB4EB00F435DE"
+               BuildableName = "JsonModuleTests.xctest"
+               BlueprintName = "JsonModuleTests"
                ReferencedContainer = "container:PsC.xcodeproj">
             </BuildableReference>
          </TestableReference>

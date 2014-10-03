@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>JsonModule.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>MyCTFramework.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>PsC.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +28,26 @@
 			<true/>
 		</dict>
 		<key>0920395C19DCC9DB005852F5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>09BE915619DE1BA600F435DE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>09BE916019DE1BA600F435DE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>09BE917C19DEB4EB00F435DE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>09BE918619DEB4EB00F435DE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

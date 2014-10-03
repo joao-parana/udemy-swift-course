@@ -10,14 +10,14 @@
 	<string>PsC</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>61D89EE4D378C579D519B751A3F96BE047835B44</key>
+		<key>5572122DA7E7AD5960CB675EE883DD7CE9EE2DB2</key>
 		<string>https://github.com/joao-parana/swift-playground-builder.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Programação sem Complicação/PsC/PsC.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>61D89EE4D378C579D519B751A3F96BE047835B44</key>
+		<key>5572122DA7E7AD5960CB675EE883DD7CE9EE2DB2</key>
 		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>61D89EE4D378C579D519B751A3F96BE047835B44</string>
+	<string>5572122DA7E7AD5960CB675EE883DD7CE9EE2DB2</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>61D89EE4D378C579D519B751A3F96BE047835B44</string>
+			<string>5572122DA7E7AD5960CB675EE883DD7CE9EE2DB2</string>
 			<key>IDESourceControlWCCName</key>
 			<string>udemy-swift-course</string>
 		</dict>

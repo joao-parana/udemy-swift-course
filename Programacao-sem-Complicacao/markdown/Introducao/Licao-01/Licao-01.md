@@ -4,13 +4,17 @@
 
 ### Inicialmente vou apresentar uma visão geral e posteriormente entrarei em detalhes sobre estas características que são muito importantes. 
 
+## Lição 1 - A) Módulos, Comentários e Variáveis
+
 ### Os conceitos apresentados aqui são usados na maioria das linguagens 
 ### de programação e podem ser facilmente adaptadas em outras gramáticas 
 ### tais com :
-* `Action Script` do Flash Player, 
-* `Java Script` que roda nos Browsers, 
-* `Action Script` (Microsoft) ou 
+* `Action Script` usada no Flash Player da Adobe, 
+* `Java Script` que roda nos Browsers (IE, Firefox, Chrome, Safari, etc.), 
+* `TypeScript` (open source mantido pela Microsoft),
+* `HAXE` (http://haxe.org) ou 
 * `Java` (Oracle) 
+* Diversas outras linguagens orientadas a objeto
 
 
 Use o comando import do `Swift` no inicio do arquivo / playground indicando os módulos 
@@ -33,8 +37,6 @@ Os comentários funcionam assim:
 
 Uma característica interessante da Linguagem SWIFT é que podemos aninhar um comentário dentro do outro.
 
-Uma tarefa para você é imaginar em qual situação isso seria útil.
-
 veja um exemplo:
 
 ```swift 
@@ -43,6 +45,8 @@ veja um exemplo:
    so that you can block out code containing multiline comments
 */
 ```
+__Uma tarefa para você:__  Imaginar em qual situação isso seria útil num programa.
+
 
 Estou falando desse assunto logo no início do curso pois considero muito importante que façamos comentários esclarecedores nos programas para que possamos consultá-los no futuro e entender o que nosso programa está fazendo.
 
@@ -62,18 +66,26 @@ Por exemplo: Uma variável de ponto flutuante de dupla precisão pode ser defini
 var explicitDouble: Double = 70
 ```
  
-if the type is omitted, Swift will infer it from the variable's initial value
+Uma das características marcantes da linguagem Swift que é suportada também no TypeScript é a seguinte:
+Se o tipo é omitido o compilador Swift irá inferir o tipo baseado no valor inicial atribuido.
+
+Exemplo:
 
 ```swift
 var implicitInteger = 70
 var implicitDouble = 70.0
 ```
 
-Podemos usar caracteres na codificação UTF-8
+
+Como na linguagem Java podemos usar caracteres na codificação UTF-8.
+
+Veja um exemplo:
 
 ```swift
 var 国 = "日本"
 var π = 3.1416 
+var r = 2
+var circleArea = 2 * π * r
 ```
 
 e também ícones emoji (como aqueles usados no Facebook, Twitter, etc.)
@@ -86,6 +98,8 @@ let reload = "🔄"
 let play = "▶️"
 
 ```
+
+## Lição 1 - B) - Constantes (conceito de Imutáveis) e Interpolação em Strings
  
 Swift constants are declared with "let" followed by a name, a type, and a value
 
@@ -107,6 +121,8 @@ let appleSummary = "I have \(numberOfApples) apples."
 let fruitSummary = "I have \(numberOfApples + numberOfOranges) pieces of fruit."
  
 ```
+
+## Lição 1 - C) - Global Namespace (Espaço de nomes Global) 
 
 code can be placed anywhere, making it global within the namespace
 

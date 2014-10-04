@@ -1,1 +1,2 @@
-playground "Programação sem Complicação/markdown"  --platform ios --destination "Programação sem Complicação/PsC/playgrounds"
+playground Programacao-sem-Complicacao/markdown  --platform ios --destination Programacao-sem-Complicacao/PsC/playgrounds
+ls -lt Programacao-sem-Complicacao/PsC/playgrounds

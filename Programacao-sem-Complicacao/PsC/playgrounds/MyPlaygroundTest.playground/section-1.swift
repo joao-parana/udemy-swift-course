@@ -4,10 +4,8 @@ import UIKit
 import SpriteKit
 import XCPlayground
 import Foundation
-import MyCTFramework
+// import MyCTFramework
 import JsonModule
-
-
 
 let obj:[String:AnyObject] = [
   "array": [JSON.null, false, 0, "", [], [:]],

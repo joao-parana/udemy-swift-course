@@ -120,6 +120,7 @@
 		09BE918D19DEB4EB00F435DE /* JsonModuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonModuleTests.swift; sourceTree = "<group>"; };
 		09BE919B19DEB62400F435DE /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 		09E6BC7B19DE0A9C0090B485 /* MyPlaygroundTest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlaygroundTest.playground; sourceTree = "<group>"; };
+		09F8B00F19E027B600FA7C51 /* BridgeAppleSecurity.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BridgeAppleSecurity.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				09E6BC7B19DE0A9C0090B485 /* MyPlaygroundTest.playground */,
+				09F8B00F19E027B600FA7C51 /* BridgeAppleSecurity.playground */,
 			);
 			path = playgrounds;
 			sourceTree = "<group>";

@@ -1,4 +1,11 @@
 import UIKit
+import JsonModule
+
+let json1 = JSON(string: "{ \"name\": \"João Paraná\" }")
+"é indentico a :"
+let json2 = JSON.parse("{ \"name\": \"João Paraná\" }")
+
+
 
 func + (left: UIColor, right: UIColor) -> UIColor {
     var leftRGBA = [CGFloat] (count: 4, repeatedValue: 0.0)

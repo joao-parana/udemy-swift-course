@@ -105,11 +105,11 @@
 		0920395D19DCC9DB005852F5 /* PsCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PsCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0920396219DCC9DB005852F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0920396319DCC9DB005852F5 /* PsCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsCTests.swift; sourceTree = "<group>"; };
-		0920397019DCD16C005852F5 /* Lição 01.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lição 01.playground"; sourceTree = "<group>"; };
 		0920397119DCD16C005852F5 /* Lição 02.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lição 02.playground"; sourceTree = "<group>"; };
 		0920397219DCD16C005852F5 /* Lição 03.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lição 03.playground"; sourceTree = "<group>"; };
 		0920397319DCD16C005852F5 /* Lição 04.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lição 04.playground"; sourceTree = "<group>"; };
 		0920397419DCD16C005852F5 /* Lição 05.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "Lição 05.playground"; path = "playgrounds/Lição 05.playground"; sourceTree = SOURCE_ROOT; };
+		09A1EF1D19DF82BC00EC8721 /* Lição 01.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lição 01.playground"; sourceTree = "<group>"; };
 		09BE915019DE115600F435DE /* json.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = json.swift; sourceTree = "<group>"; };
 		09BE915719DE1BA600F435DE /* MyCTFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyCTFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		09BE915A19DE1BA600F435DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -245,8 +245,8 @@
 		0920396F19DCD16C005852F5 /* playgrounds */ = {
 			isa = PBXGroup;
 			children = (
+				09A1EF1D19DF82BC00EC8721 /* Lição 01.playground */,
 				09E6BC7B19DE0A9C0090B485 /* MyPlaygroundTest.playground */,
-				0920397019DCD16C005852F5 /* Lição 01.playground */,
 				0920397119DCD16C005852F5 /* Lição 02.playground */,
 				0920397219DCD16C005852F5 /* Lição 03.playground */,
 				0920397319DCD16C005852F5 /* Lição 04.playground */,
@@ -1000,6 +1000,7 @@
 				09BE917119DE1BA600F435DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09BE917319DE1BA600F435DE /* Build configuration list for PBXNativeTarget "MyCTFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -1008,6 +1009,7 @@
 				09BE917519DE1BA600F435DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09BE919519DEB4EB00F435DE /* Build configuration list for PBXNativeTarget "JsonModule" */ = {
 			isa = XCConfigurationList;
@@ -1016,6 +1018,7 @@
 				09BE919719DEB4EB00F435DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09BE919819DEB4EB00F435DE /* Build configuration list for PBXNativeTarget "JsonModuleTests" */ = {
 			isa = XCConfigurationList;
@@ -1024,6 +1027,7 @@
 				09BE919A19DEB4EB00F435DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

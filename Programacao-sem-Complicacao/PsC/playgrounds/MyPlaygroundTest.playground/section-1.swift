@@ -3,9 +3,37 @@
 import UIKit
 import SpriteKit
 import XCPlayground
-import Foundation
-// import MyCTFramework
-import JsonModule
+
+let π = M_PI
+println("π = \(π)")
+for x in 0...255 {
+  var factor = pow(Double(x), 1.5)
+  var y = factor * sin(Double(x) * (π / 20))
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+let myNull = JSON.null
 
 let obj:[String:AnyObject] = [
   "array": [JSON.null, false, 0, "", [], [:]],
@@ -74,6 +102,7 @@ json["object"]["string"].isString   // true
 // Yes, we can!
 
 //// schema by Subclassing
+
 class MyJSON : JSON {
   override init(_ obj:AnyObject){ super.init(obj) }
   override init(_ json:JSON)  { super.init(json) }
@@ -96,11 +125,11 @@ myjson.object.int       // Int?
 myjson.object.double    // Double?
 myjson.object.string    // String?
 myjson.url              // String?
-
+*/
 //  This approach comes with bonus. You can't accidentaly access elements that was not supposed to there. JSON is schemaless and that is what makes JSON rule today. But that is also what makes JSON so prone to error. With Swift and this JSON class you get the best of both worlds -- flexibility of JSON and robustness of static typing.
 
 var myUrl = "http://api.dan.co.jp/asin/4534045220.json"
-JSON(url: myUrl).toString()
+// JSON(url: myUrl).toString()
 var err: NSError
 // NSString(contentsOfURL: myUrl, encoding: NSUTF8StringEncoding)
 var 🔓 = "DESPROTEGIDO"
@@ -108,6 +137,7 @@ var 🔒 = "BLOQUEADO"
 
 let reload = "🔄"
 let play = "▶️"
+
 
 
 myUrl = "http://api.dan.co.jp/nonexistent"
@@ -142,4 +172,7 @@ spriteView.presentScene(rootScene)
 //   options: nil, error: &error) as NSDictionary
 
 //let the show begin!
+
+
+
 

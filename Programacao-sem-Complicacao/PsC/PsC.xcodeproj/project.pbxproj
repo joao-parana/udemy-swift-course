@@ -21,9 +21,16 @@
 		09BE916C19DE1BA600F435DE /* MyCTFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09BE915719DE1BA600F435DE /* MyCTFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		09BE918219DEB4EB00F435DE /* JsonModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 09BE918119DEB4EB00F435DE /* JsonModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		09BE918E19DEB4EB00F435DE /* JsonModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BE918D19DEB4EB00F435DE /* JsonModuleTests.swift */; };
-		09BE919119DEB4EB00F435DE /* JsonModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09BE917D19DEB4EB00F435DE /* JsonModule.framework */; };
+		09BE919119DEB4EB00F435DE /* JsonModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09BE917D19DEB4EB00F435DE /* JsonModule.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		09BE919219DEB4EB00F435DE /* JsonModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09BE917D19DEB4EB00F435DE /* JsonModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		09BE919C19DEB62400F435DE /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BE919B19DEB62400F435DE /* JSON.swift */; };
+		09F8B0A119E0AAB800FA7C51 /* BudstaKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 09F8B0A019E0AAB800FA7C51 /* BudstaKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09F8B0AD19E0AAB800FA7C51 /* BudstaKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F8B0AC19E0AAB800FA7C51 /* BudstaKitTests.swift */; };
+		09F8B0B019E0AAB800FA7C51 /* BudstaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F8B09C19E0AAB800FA7C51 /* BudstaKit.framework */; };
+		09F8B0B119E0AAB800FA7C51 /* BudstaKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09F8B09C19E0AAB800FA7C51 /* BudstaKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		09F8B0C319E0AD3D00FA7C51 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F8B0C219E0AD3D00FA7C51 /* ShareViewController.swift */; };
+		09F8B0C519E0AD3D00FA7C51 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F8B0C419E0AD3D00FA7C51 /* MainInterface.storyboard */; };
+		09F8B0C819E0AD3D00FA7C51 /* BudstagramPoster.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 09F8B0BE19E0AD3D00FA7C51 /* BudstagramPoster.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +83,41 @@
 			remoteGlobalIDString = 09BE917C19DEB4EB00F435DE;
 			remoteInfo = JsonModule;
 		};
+		09F8B0A719E0AAB800FA7C51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0920393D19DCC9DB005852F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0920394419DCC9DB005852F5;
+			remoteInfo = PsC;
+		};
+		09F8B0AE19E0AAB800FA7C51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0920393D19DCC9DB005852F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09F8B09B19E0AAB800FA7C51;
+			remoteInfo = BudstaKit;
+		};
+		09F8B0B219E0AAB800FA7C51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0920393D19DCC9DB005852F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09F8B09B19E0AAB800FA7C51;
+			remoteInfo = BudstaKit;
+		};
+		09F8B0C619E0AD3D00FA7C51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0920393D19DCC9DB005852F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09F8B0BD19E0AD3D00FA7C51;
+			remoteInfo = BudstagramPoster;
+		};
+		09F8B0C919E0AD3D00FA7C51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0920393D19DCC9DB005852F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09F8B0BD19E0AD3D00FA7C51;
+			remoteInfo = BudstagramPoster;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -87,8 +129,20 @@
 			files = (
 				09BE919219DEB4EB00F435DE /* JsonModule.framework in Embed Frameworks */,
 				09BE916C19DE1BA600F435DE /* MyCTFramework.framework in Embed Frameworks */,
+				09F8B0B119E0AAB800FA7C51 /* BudstaKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F8B0CE19E0AD3D00FA7C51 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				09F8B0C819E0AD3D00FA7C51 /* BudstagramPoster.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -121,6 +175,17 @@
 		09BE919B19DEB62400F435DE /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 		09E6BC7B19DE0A9C0090B485 /* MyPlaygroundTest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlaygroundTest.playground; sourceTree = "<group>"; };
 		09F8B00F19E027B600FA7C51 /* BridgeAppleSecurity.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BridgeAppleSecurity.playground; sourceTree = "<group>"; };
+		09F8B09C19E0AAB800FA7C51 /* BudstaKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BudstaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09F8B09F19E0AAB800FA7C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09F8B0A019E0AAB800FA7C51 /* BudstaKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BudstaKit.h; sourceTree = "<group>"; };
+		09F8B0A619E0AAB800FA7C51 /* BudstaKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudstaKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09F8B0AB19E0AAB800FA7C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09F8B0AC19E0AAB800FA7C51 /* BudstaKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudstaKitTests.swift; sourceTree = "<group>"; };
+		09F8B0BE19E0AD3D00FA7C51 /* BudstagramPoster.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BudstagramPoster.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		09F8B0C119E0AD3D00FA7C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09F8B0C219E0AD3D00FA7C51 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		09F8B0C419E0AD3D00FA7C51 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		09F8B0D019E1C0EF00FA7C51 /* Licao-01.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Licao-01.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +195,7 @@
 			files = (
 				09BE919119DEB4EB00F435DE /* JsonModule.framework in Frameworks */,
 				09BE916B19DE1BA600F435DE /* MyCTFramework.framework in Frameworks */,
+				09F8B0B019E0AAB800FA7C51 /* BudstaKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +234,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		09F8B09819E0AAB800FA7C51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F8B0A319E0AAB800FA7C51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F8B0BB19E0AD3D00FA7C51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -182,6 +269,9 @@
 				09BE916419DE1BA600F435DE /* MyCTFrameworkTests */,
 				09BE917E19DEB4EB00F435DE /* JsonModule */,
 				09BE918A19DEB4EB00F435DE /* JsonModuleTests */,
+				09F8B09D19E0AAB800FA7C51 /* BudstaKit */,
+				09F8B0A919E0AAB800FA7C51 /* BudstaKitTests */,
+				09F8B0BF19E0AD3D00FA7C51 /* BudstagramPoster */,
 				0920394619DCC9DB005852F5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -195,6 +285,9 @@
 				09BE916119DE1BA600F435DE /* MyCTFrameworkTests.xctest */,
 				09BE917D19DEB4EB00F435DE /* JsonModule.framework */,
 				09BE918719DEB4EB00F435DE /* JsonModuleTests.xctest */,
+				09F8B09C19E0AAB800FA7C51 /* BudstaKit.framework */,
+				09F8B0A619E0AAB800FA7C51 /* BudstaKitTests.xctest */,
+				09F8B0BE19E0AD3D00FA7C51 /* BudstagramPoster.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -241,6 +334,7 @@
 		0920396F19DCD16C005852F5 /* playgrounds */ = {
 			isa = PBXGroup;
 			children = (
+				09F8B0D019E1C0EF00FA7C51 /* Licao-01.playground */,
 				09E6BC7B19DE0A9C0090B485 /* MyPlaygroundTest.playground */,
 				09F8B00F19E027B600FA7C51 /* BridgeAppleSecurity.playground */,
 			);
@@ -324,6 +418,58 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		09F8B09D19E0AAB800FA7C51 /* BudstaKit */ = {
+			isa = PBXGroup;
+			children = (
+				09F8B0A019E0AAB800FA7C51 /* BudstaKit.h */,
+				09F8B09E19E0AAB800FA7C51 /* Supporting Files */,
+			);
+			path = BudstaKit;
+			sourceTree = "<group>";
+		};
+		09F8B09E19E0AAB800FA7C51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09F8B09F19E0AAB800FA7C51 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09F8B0A919E0AAB800FA7C51 /* BudstaKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				09F8B0AC19E0AAB800FA7C51 /* BudstaKitTests.swift */,
+				09F8B0AA19E0AAB800FA7C51 /* Supporting Files */,
+			);
+			path = BudstaKitTests;
+			sourceTree = "<group>";
+		};
+		09F8B0AA19E0AAB800FA7C51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09F8B0AB19E0AAB800FA7C51 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09F8B0BF19E0AD3D00FA7C51 /* BudstagramPoster */ = {
+			isa = PBXGroup;
+			children = (
+				09F8B0C219E0AD3D00FA7C51 /* ShareViewController.swift */,
+				09F8B0C419E0AD3D00FA7C51 /* MainInterface.storyboard */,
+				09F8B0C019E0AD3D00FA7C51 /* Supporting Files */,
+			);
+			path = BudstagramPoster;
+			sourceTree = "<group>";
+		};
+		09F8B0C019E0AD3D00FA7C51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09F8B0C119E0AD3D00FA7C51 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -343,6 +489,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		09F8B09919E0AAB800FA7C51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F8B0A119E0AAB800FA7C51 /* BudstaKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -354,6 +508,7 @@
 				0920394219DCC9DB005852F5 /* Frameworks */,
 				0920394319DCC9DB005852F5 /* Resources */,
 				09BE917219DE1BA600F435DE /* Embed Frameworks */,
+				09F8B0CE19E0AD3D00FA7C51 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -362,6 +517,10 @@
 				09BE916E19DE1BA600F435DE /* PBXTargetDependency */,
 				09BE919019DEB4EB00F435DE /* PBXTargetDependency */,
 				09BE919419DEB4EB00F435DE /* PBXTargetDependency */,
+				09F8B0AF19E0AAB800FA7C51 /* PBXTargetDependency */,
+				09F8B0B319E0AAB800FA7C51 /* PBXTargetDependency */,
+				09F8B0C719E0AD3D00FA7C51 /* PBXTargetDependency */,
+				09F8B0CA19E0AD3D00FA7C51 /* PBXTargetDependency */,
 			);
 			name = PsC;
 			productName = PsC;
@@ -458,6 +617,59 @@
 			productReference = 09BE918719DEB4EB00F435DE /* JsonModuleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		09F8B09B19E0AAB800FA7C51 /* BudstaKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09F8B0B819E0AAB800FA7C51 /* Build configuration list for PBXNativeTarget "BudstaKit" */;
+			buildPhases = (
+				09F8B09719E0AAB800FA7C51 /* Sources */,
+				09F8B09819E0AAB800FA7C51 /* Frameworks */,
+				09F8B09919E0AAB800FA7C51 /* Headers */,
+				09F8B09A19E0AAB800FA7C51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BudstaKit;
+			productName = BudstaKit;
+			productReference = 09F8B09C19E0AAB800FA7C51 /* BudstaKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		09F8B0A519E0AAB800FA7C51 /* BudstaKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09F8B0B919E0AAB800FA7C51 /* Build configuration list for PBXNativeTarget "BudstaKitTests" */;
+			buildPhases = (
+				09F8B0A219E0AAB800FA7C51 /* Sources */,
+				09F8B0A319E0AAB800FA7C51 /* Frameworks */,
+				09F8B0A419E0AAB800FA7C51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09F8B0A819E0AAB800FA7C51 /* PBXTargetDependency */,
+			);
+			name = BudstaKitTests;
+			productName = BudstaKitTests;
+			productReference = 09F8B0A619E0AAB800FA7C51 /* BudstaKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09F8B0BD19E0AD3D00FA7C51 /* BudstagramPoster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09F8B0CB19E0AD3D00FA7C51 /* Build configuration list for PBXNativeTarget "BudstagramPoster" */;
+			buildPhases = (
+				09F8B0BA19E0AD3D00FA7C51 /* Sources */,
+				09F8B0BB19E0AD3D00FA7C51 /* Frameworks */,
+				09F8B0BC19E0AD3D00FA7C51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BudstagramPoster;
+			productName = BudstagramPoster;
+			productReference = 09F8B0BE19E0AD3D00FA7C51 /* BudstagramPoster.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -488,6 +700,16 @@
 						CreatedOnToolsVersion = 6.0.1;
 						TestTargetID = 0920394419DCC9DB005852F5;
 					};
+					09F8B09B19E0AAB800FA7C51 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					09F8B0A519E0AAB800FA7C51 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 0920394419DCC9DB005852F5;
+					};
+					09F8B0BD19E0AD3D00FA7C51 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
 				};
 			};
 			buildConfigurationList = 0920394019DCC9DB005852F5 /* Build configuration list for PBXProject "PsC" */;
@@ -509,6 +731,9 @@
 				09BE916019DE1BA600F435DE /* MyCTFrameworkTests */,
 				09BE917C19DEB4EB00F435DE /* JsonModule */,
 				09BE918619DEB4EB00F435DE /* JsonModuleTests */,
+				09F8B09B19E0AAB800FA7C51 /* BudstaKit */,
+				09F8B0A519E0AAB800FA7C51 /* BudstaKitTests */,
+				09F8B0BD19E0AD3D00FA7C51 /* BudstagramPoster */,
 			);
 		};
 /* End PBXProject section */
@@ -556,6 +781,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F8B09A19E0AAB800FA7C51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F8B0A419E0AAB800FA7C51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F8B0BC19E0AD3D00FA7C51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F8B0C519E0AD3D00FA7C51 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -612,6 +859,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		09F8B09719E0AAB800FA7C51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F8B0A219E0AAB800FA7C51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F8B0AD19E0AAB800FA7C51 /* BudstaKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F8B0BA19E0AD3D00FA7C51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F8B0C319E0AD3D00FA7C51 /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -649,6 +919,31 @@
 			isa = PBXTargetDependency;
 			target = 09BE917C19DEB4EB00F435DE /* JsonModule */;
 			targetProxy = 09BE919319DEB4EB00F435DE /* PBXContainerItemProxy */;
+		};
+		09F8B0A819E0AAB800FA7C51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0920394419DCC9DB005852F5 /* PsC */;
+			targetProxy = 09F8B0A719E0AAB800FA7C51 /* PBXContainerItemProxy */;
+		};
+		09F8B0AF19E0AAB800FA7C51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09F8B09B19E0AAB800FA7C51 /* BudstaKit */;
+			targetProxy = 09F8B0AE19E0AAB800FA7C51 /* PBXContainerItemProxy */;
+		};
+		09F8B0B319E0AAB800FA7C51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09F8B09B19E0AAB800FA7C51 /* BudstaKit */;
+			targetProxy = 09F8B0B219E0AAB800FA7C51 /* PBXContainerItemProxy */;
+		};
+		09F8B0C719E0AD3D00FA7C51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09F8B0BD19E0AD3D00FA7C51 /* BudstagramPoster */;
+			targetProxy = 09F8B0C619E0AD3D00FA7C51 /* PBXContainerItemProxy */;
+		};
+		09F8B0CA19E0AD3D00FA7C51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09F8B0BD19E0AD3D00FA7C51 /* BudstagramPoster */;
+			targetProxy = 09F8B0C919E0AD3D00FA7C51 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -758,6 +1053,7 @@
 				INFOPLIST_FILE = PsC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_INCLUDE_PATHS[arch=*]" = "";
 			};
 			name = Debug;
 		};
@@ -955,6 +1251,102 @@
 			};
 			name = Release;
 		};
+		09F8B0B419E0AAB800FA7C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BudstaKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		09F8B0B519E0AAB800FA7C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BudstaKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		09F8B0B619E0AAB800FA7C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BudstaKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PsC.app/PsC";
+			};
+			name = Debug;
+		};
+		09F8B0B719E0AAB800FA7C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BudstaKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PsC.app/PsC";
+			};
+			name = Release;
+		};
+		09F8B0CC19E0AD3D00FA7C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BudstagramPoster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		09F8B0CD19E0AD3D00FA7C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BudstagramPoster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1017,6 +1409,33 @@
 			buildConfigurations = (
 				09BE919919DEB4EB00F435DE /* Debug */,
 				09BE919A19DEB4EB00F435DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09F8B0B819E0AAB800FA7C51 /* Build configuration list for PBXNativeTarget "BudstaKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F8B0B419E0AAB800FA7C51 /* Debug */,
+				09F8B0B519E0AAB800FA7C51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09F8B0B919E0AAB800FA7C51 /* Build configuration list for PBXNativeTarget "BudstaKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F8B0B619E0AAB800FA7C51 /* Debug */,
+				09F8B0B719E0AAB800FA7C51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09F8B0CB19E0AD3D00FA7C51 /* Build configuration list for PBXNativeTarget "BudstagramPoster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F8B0CC19E0AD3D00FA7C51 /* Debug */,
+				09F8B0CD19E0AD3D00FA7C51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

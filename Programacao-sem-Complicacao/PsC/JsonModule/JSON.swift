@@ -13,6 +13,20 @@ import Foundation
 //
 // Implementação obtida em https://github.com/dankogai/swift-json
 
+let _mySampleJsonObjForTest:[String:AnyObject] = [
+  "array": [JSON.null, false, 0, "", [], [:]],
+  "object":[
+    "null":   JSON.null,
+    "bool":   true,
+    "int":    42,
+    "double": 3.141592653589793,
+    "string": "a α\t弾\nð assombração é feia",
+    "array":  [],
+    "object": [:]
+  ],
+  "url":"https://automacao.info"
+]
+
 /// init
 public class JSON {
   private let _value:AnyObject
@@ -21,7 +35,10 @@ public class JSON {
   public init(_ obj:AnyObject) { self._value = obj }
   /// pass the JSON object for another instance
   public init(_ json:JSON){ self._value = json._value }
+  
+  public class var mySampleJsonObjForTest: [String:AnyObject] { return _mySampleJsonObjForTest }
 }
+
 /// class properties
 extension JSON {
   public typealias NSNull = Foundation.NSNull
@@ -353,3 +370,4 @@ extension JSON : Printable {
 }
 
 // Implementação acima obtida em https://github.com/dankogai/swift-json
+

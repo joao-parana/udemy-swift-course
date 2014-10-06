@@ -6,9 +6,7 @@
 
 ## Lição 1 - A) Módulos, Comentários e Variáveis
 
-### Os conceitos apresentados aqui são usados na maioria das linguagens 
-### de programação e podem ser facilmente adaptadas em outras gramáticas 
-### tais com :
+### Os conceitos apresentados aqui são usados na maioria das linguagens de programação e podem ser facilmente adaptadas em outras gramáticas tais com :
 * `Action Script` usada no Flash Player da Adobe, 
 * `Java Script` que roda nos Browsers (IE, Firefox, Chrome, Safari, etc.), 
 * `TypeScript` (open source mantido pela Microsoft),
@@ -24,7 +22,9 @@ que serão usados. Por exemplo, para testar as funções disponíveis na API do 
 import UIKit
 ```
 
-Comentários são usados pelos programadores e profissionais de tecnologia da Informação que tenham acesso ao código fonte. Os computadores simppesmente ignoram estas infromações.
+Comentários são usados pelos programadores e profissionais de tecnologia da Informação que tenham acesso ao código fonte. Os computadores simplesmente ignoram estas informações. 
+
+Mas então qual a importância deles ? 
 
 Os comentários funcionam assim:
 
@@ -45,14 +45,19 @@ veja um exemplo:
    so that you can block out code containing multiline comments
 */
 ```
-__Uma tarefa para você:__  Imaginar em qual situação isso seria útil num programa.
+__Uma tarefa para você:__  Imaginar em quais situações comentários aninhados poderia ser útil num programa.
 
+Eu disse anteriormente que os computadores ignoram os comentários. 
 
-Estou falando desse assunto logo no início do curso pois considero muito importante que façamos comentários esclarecedores nos programas para que possamos consultá-los no futuro e entender o que nosso programa está fazendo.
+Mas então qual a importância deles ? Simples ! Eles ajudam os programadores a entender o que se passa no programa, qual a lógica usada, qual a abordagem da implementação, quais padrões foram usados, etc. 
 
-Seu programa deve conter comentários sobre a dinâmica de execução e uso dos recursos que possam ajudar a resolver um problema no futuro. 
+Mas porque começar um curso de programação com isso ?
 
-Afinal de contas, quando você estiver de férias no Caribe, não vai querer que teu chefe te ligue para você explicar porque a rotina de calculo de desconto tem uma variável chamada condiçãoEspecial e como ela é usada no seu programa.
+Bem, então vejamos, eu estou falando desse assunto logo no início do curso pois considero muito importante que façamos comentários esclarecedores nos programas para que possamos consultá-los no futuro e entender o que nosso programa está fazendo.
+
+Seu programa deve conter comentários sobre a dinâmica de execução e uso dos recursos de forma que possam ajudar a resolver um problema que provavelmente aparecerá no futuro.  
+
+Afinal de contas, quando você estiver de férias no Caribe, não vai querer que teu chefe te ligue para você explicar porque a rotina de calculo de desconto tem uma variável chamada `condiçãoEspecial` e como ela é usada no seu programa.
 
 Isso é apenas um exemplo real que pode ocorrer por falta de comentário no programa.
 
@@ -98,6 +103,15 @@ let reload = "🔄"
 let play = "▶️"
 
 ```
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+
+
+
+
+
+
+
 
 ## Lição 1 - B) - Constantes (conceito de Imutáveis) e Interpolação em Strings
  

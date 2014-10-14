@@ -3,6 +3,67 @@
 import UIKit
 import SpriteKit
 import XCPlayground
+import Foundation
+let jsonObject: [AnyObject] = [
+  ["name": "John", "age": 21],
+  ["name": "Bob", "age": 35],
+]
+
+let anotherObject = ["id": 5, "name": "Tester", "email": "tester@test.com"]
+
+/** Saida da function JSONObjectWithData . */
+enum JSONObjectWithDataResult  {
+  case Success(AnyObject)
+  case Failure(NSError)
+}
+
+/**
+Tenta converter o NSData para objeto JSON
+retorna o objeto root do JSON ou um erro.
+*/
+func JSONObjectWithData(
+  data:    NSData,
+  options: NSJSONReadingOptions = nil)
+  -> JSONObjectWithDataResult  {
+    var error: NSError?
+    let json: AnyObject? =
+    NSJSONSerialization.JSONObjectWithData(
+      data,
+      options: options,
+      error:  &error)
+    return json != nil
+      ? .Success(json!)
+      : .Failure(error ?? NSError())
+}
+
+//
+// Examplo de uso
+//
+func parseSomeJSON(json: String) -> String {
+  let data = (json as NSString).dataUsingEncoding(NSUTF8StringEncoding)
+  switch JSONObjectWithData(data!)  {
+    case .Success(let json):  return("json:  \(json)")
+    case .Failure(let error): return("error: \(error)")
+  }
+}
+
+func readSomeRemoteJSON(apiKey: String) -> String {
+  // obtem o JSON em algum lugar (API do Google Maps por exemplo)
+  let baseURL = NSURL(string: "https:/api.forecast.io/forecast/\(apiKey)/37.8267,-122.423")
+  let forecastURL: NSURL? = NSURL(string: "", relativeToURL: baseURL)
+  println(forecastURL)
+  let data = NSData(contentsOfURL: forecastURL!)
+  switch JSONObjectWithData(data)  {
+    case .Success(let json):  return("json:  \(json)")
+    case .Failure(let error): return("error: \(error)")
+  }
+}
+
+let json  = "{ \"latitude\" : 37.8267, \"longitude\" : -122.423,  \"timezone\" : \"America/Los_Angeles\",  \"offset\" : -7,  \"currently\" : {   \"time\" : 1413317973,   \"summary\" : \"Overcast\",   \"icon\" : \"cloudy\",   \"nearestStormDistance\" : 8,   \"nearestStormBearing\" : 340,   \"precipIntensity\" : 0,   \"precipProbability\" : 0,   \"temperature\" : 65.4,   \"apparentTemperature\" : 65.4,   \"dewPoint\" : 56.61,   \"humidity\" : 0.73,   \"windSpeed\" : 10.51,   \"windBearing\" : 209,   \"visibility\" : 9.35,   \"cloudCover\" : 0.94,   \"pressure\" : 1010.88,   \"ozone\" : 280.05  },  \"flags\" : {   \"units\" : \"us\"  } }"
+let apiKey = "c7293ae9c374b94b0d5170bc27abb5ae"
+println(parseSomeJSON(json))
+
+// let myNull = JSON.null
 
 let π = M_PI
 println("π = \(π)")

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		091A007B19E9EEA8007EE8BB /* JsonModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09BE917D19DEB4EB00F435DE /* JsonModule.framework */; };
 		0920394B19DCC9DB005852F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0920394A19DCC9DB005852F5 /* AppDelegate.swift */; };
 		0920394E19DCC9DB005852F5 /* PsC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0920394C19DCC9DB005852F5 /* PsC.xcdatamodeld */; };
 		0920395019DCC9DB005852F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0920394F19DCC9DB005852F5 /* ViewController.swift */; };
@@ -203,6 +204,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				091A007B19E9EEA8007EE8BB /* JsonModule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
